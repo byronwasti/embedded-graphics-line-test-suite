@@ -7,13 +7,13 @@ with open('output.txt', 'r') as csvfile:
         xs = []
         ys = []
 
+        print(row[0])
         for pixel in row[1:-1]:
             x, y = pixel.strip().split(" ")
             xs.append(int(x))
             ys.append(int(y))
 
-        xs.sort()
-        ys.sort()
+        plt.plot(xs[0], ys[0], 'x')
         plt.plot(xs, ys, '-')
 
 plt.show()

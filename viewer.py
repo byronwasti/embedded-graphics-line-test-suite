@@ -1,5 +1,4 @@
 import matplotlib.pyplot as plt
-import seaborn as sns
 import csv
 
 with open('output.txt', 'r') as csvfile:

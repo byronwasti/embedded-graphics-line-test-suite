@@ -1,0 +1,11 @@
+[[package]]
+name = "embedded-graphics"
+version = "0.1.0"
+
+[[package]]
+name = "rust-test-embedded-graphics"
+version = "0.1.0"
+dependencies = [
+ "embedded-graphics 0.1.0",
+]
+

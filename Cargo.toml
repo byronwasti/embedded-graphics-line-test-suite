@@ -1,0 +1,8 @@
+[package]
+name = "rust-test-embedded-graphics"
+version = "0.1.0"
+authors = ["Byron Wasti <byron.wasti@gmail.com>"]
+
+[dependencies]
+embedded-graphics = {path = "../rust-embedded-graphics"}
+#{git = "https://github.com/jamwaffles/embedded-graphics"}
